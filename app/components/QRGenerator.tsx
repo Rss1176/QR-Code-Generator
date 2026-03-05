@@ -4,8 +4,8 @@ import { useState, useRef, useEffect, useCallback } from "react";
 import QRCode from "qrcode";
 
 const PRESETS = [
-	{ label: "URL", placeholder: "", inputMode: "url" as const },
-	{ label: "Plain text", placeholder: "", inputMode: "text" as const },
+	{ label: "URL", placeholder: "Enter URL here", inputMode: "url" as const },
+	{ label: "Plain text", placeholder: "Enter text here", inputMode: "text" as const },
 	{ label: "Email", placeholder: "mailto:hello@example.com", inputMode: "email" as const },
 	{ label: "Phone", placeholder: "tel:+1234567890", inputMode: "tel" as const },
 	{ label: "Wi-Fi", placeholder: "WIFI:T:WPA;S:NetworkName;P:Password;;", inputMode: "text" as const },
